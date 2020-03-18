@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <JWPlayer_iOS_SDK/JWPlayerController.h>
 
 @interface AppDelegate ()
 
@@ -16,7 +17,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    // Override point for customization after application launch.    
+    [JWPlayerController setPlayerKey:@"ADD-SDK-KEY-HERE"];
     return YES;
 }
 
